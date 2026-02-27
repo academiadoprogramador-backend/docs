@@ -1,9 +1,13 @@
 ---
-slug: /introducao-ao-csharp/hello-world
+draft: true
+slug: /full-stack/introducao-ao-csharp/hello-world
 tags:
+  - Aula 01
   - Introdução ao C#
   - I/O
 ---
+
+"Hello World" (Olá, Mundo) é o programa de computador mais simples e clássico, usado para exibir essa frase na tela, servindo como o primeiro passo no aprendizado de qualquer linguagem de programação.
 
 ## Criando o Projeto
 
