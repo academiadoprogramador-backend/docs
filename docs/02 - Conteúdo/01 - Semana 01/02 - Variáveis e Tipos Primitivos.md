@@ -1,6 +1,6 @@
 ---
 draft: true
-slug: /full-stack/introducao-ao-csharp/variaveis-e-tipos-primitivos
+slug: /introducao-ao-csharp/variaveis-e-tipos-primitivos
 tags:
   - Aula 02
   - Introdução ao C#

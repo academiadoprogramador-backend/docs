@@ -1,6 +1,6 @@
 ---
 draft: true
-slug: /full-stack/introducao-ao-csharp/calculadora
+slug: /introducao-ao-csharp/calculadora
 tags:
   - Aula 02
   - Introdução ao C#

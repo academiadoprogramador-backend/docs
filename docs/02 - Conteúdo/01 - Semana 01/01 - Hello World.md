@@ -1,6 +1,6 @@
 ---
 draft: true
-slug: /full-stack/introducao-ao-csharp/hello-world
+slug: /introducao-ao-csharp/hello-world
 tags:
   - Aula 01
   - Introdução ao C#
