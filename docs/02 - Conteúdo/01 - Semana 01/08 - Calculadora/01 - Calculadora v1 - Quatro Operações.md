@@ -6,6 +6,8 @@ tags:
   - Introdução ao C#
   - Tipos Primitivos
   - I/O
+  - Estruturas de Decisão
+  - Estruturas de Repetição
 ---
 
 Nosso primeiro desafio é fazer um sistema para calcular operações matemáticas simples, como adição, subtração, multiplicação e divisão entre dois números.

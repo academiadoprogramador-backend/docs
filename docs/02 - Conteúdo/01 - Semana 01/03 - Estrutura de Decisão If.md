@@ -1,6 +1,6 @@
 ---
 draft: true
-slug: /introducao-ao-csharp/estruturas-de-decisao-if
+slug: /introducao-ao-csharp/estrutura-de-decisao-if
 tags:
   - Aula 02
   - Introdução ao C#
