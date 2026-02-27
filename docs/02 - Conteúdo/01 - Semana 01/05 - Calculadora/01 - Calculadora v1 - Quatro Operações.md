@@ -101,10 +101,10 @@ Console.WriteLine("-----------------------------------------");
 
 // atribuição direta do input do usuário para variável com ReadLine()
 Console.Write("Digite o primeiro número: ");
-decimal primeiroNumero = Convert.ToDouble(Console.ReadLine());
+decimal primeiroNumero = Convert.ToDecimal(Console.ReadLine());
 
 Console.Write("Digite o segundo número: ");
-decimal segundoNumero = Convert.ToDouble(Console.ReadLine());
+decimal segundoNumero = Convert.ToDecimal(Console.ReadLine());
 
 decimal resultado = 0;
 
@@ -164,10 +164,10 @@ while (true)
 	Console.WriteLine("-----------------------------------------");
 
 	Console.Write("Digite o primeiro número: ");
-	int numero1 = Convert.ToInt32(Console.ReadLine());
+	decimal numero1 = Convert.ToDecimal(Console.ReadLine());
 
 	Console.Write("Digite o segundo número: ");
-	int numero2 = Convert.ToInt32(Console.ReadLine());
+	decimal numero2 = Convert.ToDecimal(Console.ReadLine());
 
 	int resultado = 0;
 
