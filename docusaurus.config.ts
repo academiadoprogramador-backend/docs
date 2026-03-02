@@ -1,4 +1,4 @@
-import { themes as prismThemes } from "prism-react-renderer";
+import { themes as prismThemes } from 'prism-react-renderer';
 
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
@@ -10,10 +10,20 @@ const config: Config = {
   staticDirectories: ["public", "static"],
   tagline: "",
   favicon: "img/logo.svg",
-  url: "https://docs.academiadoprogramador.net",
-  baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "throw",
+
+  // Set the production url of your site here
+  url: "https://github.com",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: "/",
+  deploymentBranch: "gh-pages",
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: "academiadoprogramador-fullstack", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   markdown: {
     hooks: {
