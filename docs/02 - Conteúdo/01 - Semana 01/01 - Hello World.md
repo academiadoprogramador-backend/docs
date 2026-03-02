@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: /introducao-ao-csharp/hello-world
 tags:
   - Aula 01
