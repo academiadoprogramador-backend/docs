@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: /introducao-ao-csharp/estrutura-de-decisao-if
 tags:
   - Aula 02

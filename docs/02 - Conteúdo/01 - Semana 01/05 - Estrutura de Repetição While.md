@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: /introducao-ao-csharp/estrutura-de-repeticao-while
 tags:
   - Aula 02

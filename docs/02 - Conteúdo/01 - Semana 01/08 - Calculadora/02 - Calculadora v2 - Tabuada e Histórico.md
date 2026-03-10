@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: /introducao-ao-csharp/calculadora-v2
 tags:
   - Aula 03

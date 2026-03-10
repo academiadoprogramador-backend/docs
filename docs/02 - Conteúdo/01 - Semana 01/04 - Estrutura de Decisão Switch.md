@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: /introducao-ao-csharp/estrutura-de-decisao-switch
 tags:
   - Aula 02
