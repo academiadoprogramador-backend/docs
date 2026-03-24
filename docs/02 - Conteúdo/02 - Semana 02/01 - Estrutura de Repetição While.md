@@ -2,7 +2,7 @@
 draft: false
 slug: /introducao-ao-csharp/estrutura-de-repeticao-while
 tags:
-  - Aula 02
+  - Aula 04
   - Introdução ao C#
   - Estruturas de Repetição
 ---
