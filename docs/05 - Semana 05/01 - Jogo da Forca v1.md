@@ -2,7 +2,7 @@
 draft: false
 slug: /introducao-ao-csharp/jogo-da-forca-v1
 tags:
-  - Aula 08
+  - Aula 09
   - Introdução ao C#
   - Estruturas de Decisão
   - Estruturas de Repetição
