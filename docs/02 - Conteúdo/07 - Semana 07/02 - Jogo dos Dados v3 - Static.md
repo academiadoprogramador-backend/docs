@@ -8,8 +8,6 @@ tags:
   - Static
 ---
 
-# Jogo dos Dados (Versão 2)
-
 Nesta versão do jogo, iremos evoluir a implementação anterior para um
 modelo mais organizado, utilizando **programação estruturada** e
 introduzindo o conceito de **membros estáticos (`static`)**.
@@ -20,9 +18,9 @@ o código mais fácil de manter.
 
 ---
 
-## O que mudou em relação à versão 1?
+## O que mudou em relação à versão 2?
 
-Na versão 1, tínhamos:
+Na versão 2, tínhamos:
 
 - Toda a lógica concentrada em um único bloco
 - Repetição de código para jogador e computador
