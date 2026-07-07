@@ -6,7 +6,7 @@ Este arquivo orienta futuras interações com agentes de IA neste repositório. 
 
 O projeto é uma documentação em Docusaurus para a **Academia do Programador 2026**.
 
-O conteúdo é voltado para estudantes em formação inicial e intermediária em desenvolvimento back-end, com foco principal em:
+O conteúdo é voltado para estudantes em formação inicial e intermediária em desenvolvimento backend, com foco principal em:
 
 - introdução ao C#;
 - programação estruturada;
@@ -136,11 +136,8 @@ Prefira títulos descritivos:
 
 ```md
 ## O problema de usar o Model diretamente
-
 ## O que é uma ViewModel?
-
 ## Utilizando ViewModel na listagem
-
 ## Benefícios das ViewModels
 ```
 
@@ -148,9 +145,7 @@ Evite títulos genéricos demais:
 
 ```md
 ## Introdução
-
 ## Parte 1
-
 ## Mais coisas
 ```
 
