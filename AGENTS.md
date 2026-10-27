@@ -95,6 +95,12 @@ Evite:
 - mudanças grandes de assunto sem transição;
 - humor, ironia ou linguagem informal demais.
 
+## Referências Externas
+
+Priorize conteúdo didático que possa ser compreendido dentro do próprio documento. Evite incluir menções ou links externos para repositórios e branches, como instruções para consultar um projeto no GitHub ou trocar para uma branch específica.
+
+Quando um exemplo depender de código ou configuração externa, apresente no documento o contexto necessário e os trechos relevantes para que o aluno consiga acompanhar sem precisar sair da aula. Se uma referência externa for indispensável, explique claramente sua finalidade e não a use como substituto da explicação.
+
 ## Estrutura Recomendada de uma Aula
 
 Uma aula costuma seguir esta sequência:
@@ -237,6 +243,50 @@ public class Produto
 Os exemplos devem ser pequenos no início e crescer aos poucos.
 
 Quando mostrar um código maior, explique antes quais partes o aluno deve observar.
+
+## Diagramas Mermaid
+
+Use diagramas Mermaid para tornar visualmente claros os fluxos e relacionamentos que são difíceis de acompanhar apenas pelo texto.
+
+Priorize diagramas quando o conteúdo explicar:
+
+- o fluxo de uma requisição entre usuário, Controller, serviços, Repository e banco de dados;
+- as etapas de uma funcionalidade, incluindo decisões e caminhos alternativos;
+- o relacionamento entre entidades ou tabelas de banco de dados, incluindo cardinalidades relevantes.
+
+Escolha o tipo de diagrama adequado, como `flowchart` para fluxos e `erDiagram` para entidades e tabelas. Mantenha os diagramas pequenos, com nomes consistentes com os exemplos da aula, e explique no texto o que o aluno deve observar. Não use diagramas quando eles apenas repetirem uma explicação simples ou tornarem a leitura mais difícil.
+
+Exemplo de fluxo:
+
+```mermaid
+flowchart LR
+    Usuario --> Controller
+    Controller --> Repository
+    Repository --> BancoDeDados
+    BancoDeDados --> Repository
+    Repository --> Controller
+    Controller --> Usuario
+```
+
+Exemplo de relacionamento entre entidades:
+
+```mermaid
+erDiagram
+    CLIENTE ||--o{ PEDIDO : realiza
+    PEDIDO ||--|{ ITEM_PEDIDO : possui
+```
+
+## Recursos Visuais com Playwright
+
+Quando o MCP do Playwright estiver disponível e houver uma interface ou componente visual relevante para a aula, use-o para produzir screenshots ou GIFs que ajudem a apresentar o elemento em seu contexto. Isso é especialmente útil para demonstrar estados da interface, interações e resultados de uma funcionalidade.
+
+- capture a tela ou interação real da aplicação, sem substituir a imagem por uma representação que possa induzir o aluno ao erro;
+- salve os arquivos em uma pasta `_assets` próxima ao documento;
+- insira cada imagem na seção que explica o elemento correspondente, com texto alternativo descritivo;
+- use GIF somente quando o movimento ou a sequência de interação acrescentar informação; caso contrário, prefira screenshot;
+- mantenha as imagens legíveis e evite capturas com dados sensíveis ou informações desnecessárias.
+
+Se o MCP do Playwright não estiver disponível, ou a aplicação não puder ser executada, não invente capturas. Continue a explicação com os recursos existentes e indique a limitação apenas quando isso for relevante.
 
 ## Progressão Pedagógica
 
