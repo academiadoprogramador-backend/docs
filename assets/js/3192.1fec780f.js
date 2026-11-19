@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkacademia_do_programador_docs=globalThis.webpackChunkacademia_do_programador_docs||[]).push([[3192],{13192:(a,r,c)=>{c.d(r,{createArchitectureServices:()=>e.S});var e=c(84549);c(80184)}}]);

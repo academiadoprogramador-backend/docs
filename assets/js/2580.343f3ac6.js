@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkacademia_do_programador_docs=globalThis.webpackChunkacademia_do_programador_docs||[]).push([[2580],{2580:(a,r,d)=>{d.d(r,{createWardleyServices:()=>e.J});var e=d(40120);d(80184)}}]);
