@@ -120,6 +120,12 @@ Views:
   label: Views
 
 # Trilhas, tecnologias e conceitos
+testes-unitarios:
+  label: Testes Unitários
+  description: Verificação isolada de comportamentos e regras da aplicação.
+mstest:
+  label: MSTest
+  description: Framework de testes automatizados para aplicações .NET.
 arquitetura-de-software:
   label: Arquitetura de Software
 aspnet-core:
