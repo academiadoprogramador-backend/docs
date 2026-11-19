@@ -120,6 +120,15 @@ Views:
   label: Views
 
 # Trilhas, tecnologias e conceitos
+integracao-continua:
+  label: Integração Contínua
+  description: Verificações automatizadas de compilação e testes a cada alteração.
+github-actions:
+  label: GitHub Actions
+  description: Automação de workflows executados a partir do repositório.
+yaml:
+  label: YAML
+  description: Estrutura de arquivos de configuração com chaves, valores e indentação.
 testes-unitarios:
   label: Testes Unitários
   description: Verificação isolada de comportamentos e regras da aplicação.
