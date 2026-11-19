@@ -123,6 +123,9 @@ Views:
 testes-unitarios:
   label: Testes Unitários
   description: Verificação isolada de comportamentos e regras da aplicação.
+testes-integracao:
+  label: Testes de Integração
+  description: Verificação da colaboração entre componentes e da persistência de dados.
 mstest:
   label: MSTest
   description: Framework de testes automatizados para aplicações .NET.
