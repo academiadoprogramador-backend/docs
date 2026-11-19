@@ -126,6 +126,12 @@ testes-unitarios:
 testes-integracao:
   label: Testes de Integração
   description: Verificação da colaboração entre componentes e da persistência de dados.
+testes-e2e:
+  label: Testes E2E
+  description: Verificação de fluxos completos da aplicação pela interface.
+playwright:
+  label: Playwright
+  description: Automação de navegadores e testes de ponta a ponta.
 mstest:
   label: MSTest
   description: Framework de testes automatizados para aplicações .NET.
