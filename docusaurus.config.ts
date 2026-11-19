@@ -26,6 +26,7 @@ const config: Config = {
   projectName: "docs", // Usually your repo name.
 
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: "throw",
     },
@@ -44,6 +45,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           path: "docs",
           routeBasePath: "/",
+          tags: "tags.yml",
+          onInlineTags: "throw",
         },
         blog: false,
         theme: {
@@ -52,6 +55,8 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  themes: ["@docusaurus/theme-mermaid"],
 
   themeConfig: {
     colorMode: {
@@ -68,7 +73,12 @@ const config: Config = {
         alt: "Academia do Programador",
         src: "img/logo.svg",
       },
-      items: [],
+      items: [
+        {
+          label: "Assuntos",
+          to: "/tags",
+        },
+      ],
     },
     sidebar: {
       hideable: false,

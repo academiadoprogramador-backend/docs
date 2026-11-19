@@ -1,0 +1,224 @@
+# Catálogo de tags. As chaves preservam as referências existentes nas aulas.
+# Cadastre novas tags aqui antes de utilizá-las no frontmatter.
+
+# Identificação das aulas
+Aula 01:
+  label: Aula 01
+Aula 02:
+  label: Aula 02
+Aula 03:
+  label: Aula 03
+Aula 04:
+  label: Aula 04
+Aula 06:
+  label: Aula 06
+Aula 07:
+  label: Aula 07
+Aula 09:
+  label: Aula 09
+Aula 12:
+  label: Aula 12
+Aula 13:
+  label: Aula 13
+Aula 14:
+  label: Aula 14
+Aula 16:
+  label: Aula 16
+Aula 18:
+  label: Aula 18
+Aula 19:
+  label: Aula 19
+Aula 24:
+  label: Aula 24
+Aula 27:
+  label: Aula 27
+Aula 31:
+  label: Aula 31
+Aula 35:
+  label: Aula 35
+Aula 36:
+  label: Aula 36
+Aula 37:
+  label: Aula 37
+Aula 38:
+  label: Aula 38
+Aula 39:
+  label: Aula 39
+Aula 41:
+  label: Aula 41
+
+# Fundamentos e ferramentas
+Arquitetura em Camadas:
+  label: Arquitetura em Camadas
+Arquivos:
+  label: Arquivos
+Arrays:
+  label: Arrays
+C#:
+  label: C#
+Classes e Objetos:
+  label: Classes e Objetos
+Coleções:
+  label: Coleções
+Controllers:
+  label: Controllers
+Encapsulamento:
+  label: Encapsulamento
+Estruturas de Decisão:
+  label: Estruturas de Decisão
+Estruturas de Repetição:
+  label: Estruturas de Repetição
+Generics:
+  label: Generics
+Git:
+  label: Git
+Herança:
+  label: Herança
+I/O:
+  label: I/O
+Interfaces:
+  label: Interfaces
+Introdução ao C#:
+  label: Introdução ao C#
+JSON:
+  label: JSON
+MVC:
+  label: MVC
+Persistência:
+  label: Persistência
+Polimorfismo:
+  label: Polimorfismo
+Programação Estruturada:
+  label: Programação Estruturada
+Programação Orientada a Objetos:
+  label: Programação Orientada a Objetos
+Programação Web:
+  label: Programação Web
+Random:
+  label: Random
+Randomização:
+  label: Randomização
+SDK:
+  label: SDK
+Serialização:
+  label: Serialização
+Servidor Web:
+  label: Servidor Web
+Static:
+  label: Static
+System.Text.Json:
+  label: System.Text.Json
+Tipos Primitivos:
+  label: Tipos Primitivos
+Tutoriais:
+  label: Tutoriais
+VS Code:
+  label: VS Code
+Versionamento:
+  label: Versionamento
+Views:
+  label: Views
+
+# Trilhas, tecnologias e conceitos
+arquitetura-de-software:
+  label: Arquitetura de Software
+aspnet-core:
+  label: ASP.NET Core
+aspnet-core-mvc:
+  label: ASP.NET Core MVC
+autenticacao:
+  label: Autenticação
+autorizacao:
+  label: Autorização
+banco-de-dados:
+  label: Banco de Dados
+camada-de-aplicacao:
+  label: Camada de Aplicação
+chave-estrangeira:
+  label: Chave Estrangeira
+clean-architecture:
+  label: Clean Architecture
+compromissos:
+  label: Compromissos
+conceito-bootstrap:
+  label: Bootstrap
+conceito-dataannotations:
+  label: DataAnnotations
+conceito-injecao-dependencia:
+  label: Injeção de Dependência
+conceito-modelstate:
+  label: ModelState
+conceito-taghelpers:
+  label: Tag Helpers
+conceito-viewmodels:
+  label: ViewModels
+consultas-sql:
+  label: Consultas SQL
+contatos:
+  label: Contatos
+dapper:
+  label: Dapper
+docker:
+  label: Docker
+docker-cli:
+  label: Docker CLI
+docker-desktop:
+  label: Docker Desktop
+e-agenda:
+  label: e-Agenda
+entity-framework-core:
+  label: Entity Framework Core
+estilização-de-views:
+  label: Estilização de Views
+identity:
+  label: ASP.NET Core Identity
+include:
+  label: Include
+injecao-de-dependencia:
+  label: Injeção de Dependência
+itens-de-tarefa:
+  label: Itens de Tarefa
+join:
+  label: JOIN
+material-aula-conceitual:
+  label: Aula Conceitual
+  description: Explicações focadas na compreensão de um conceito.
+material-aula-pratica:
+  label: Aula Prática
+  description: Aulas com comandos, código e atividades práticas de desenvolvimento.
+micro-orm:
+  label: Micro-ORM
+migrations:
+  label: Migrations
+modelstate:
+  label: ModelState
+monolito-modular:
+  label: Monolito Modular
+multiusuario:
+  label: Aplicações Multiusuário
+organizacao-de-projeto:
+  label: Organização de Projeto
+orm:
+  label: ORM
+persistencia-de-dados:
+  label: Persistência de Dados
+queryfilter:
+  label: QueryFilter
+relacionamentos:
+  label: Relacionamentos
+service-container:
+  label: Service Container
+sql-server:
+  label: SQL Server
+tarefas:
+  label: Tarefas
+tech-aspnet-core-mvc:
+  label: ASP.NET Core MVC
+trilha-banco-de-dados:
+  label: Banco de Dados
+trilha-programacao-web:
+  label: Programação Web
+validacao-de-dominio:
+  label: Validação de Domínio
+validacao-de-formularios:
+  label: Validação de Formulários

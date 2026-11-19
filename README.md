@@ -2,6 +2,30 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+### Assuntos e diagramas
+
+O menu **Assuntos** abre `/docs/tags/`, com busca por nome e descrição das tags.
+A busca ignora diferenças entre maiúsculas, minúsculas e acentos.
+Selecione uma tag para consultar as aulas relacionadas.
+
+As tags são cadastradas em `docs/tags.yml` e referenciadas pela chave no
+frontmatter das aulas. Novas tags devem ser cadastradas nesse catálogo;
+o build rejeita tags não cadastradas. As chaves existentes foram mantidas
+para preservar as referências e rotas das aulas.
+
+Para adicionar um diagrama, use um bloco com a linguagem `mermaid`:
+
+````md
+```mermaid
+flowchart LR
+    Usuario --> Controller
+    Controller --> Repository
+    Repository --> BancoDeDados
+```
+````
+
+O tema Mermaid acompanha o modo claro ou escuro do site.
+
 ### Installation
 
 ```
